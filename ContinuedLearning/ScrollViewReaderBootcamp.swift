@@ -42,7 +42,7 @@ struct ScrollViewReaderBootcamp: View {
                     }
                     .onChange(of: scrollToIndex) { newValue in
                         withAnimation(.spring()) {
-                            proxy.scrollTo(newValue, anchor: .bottom)
+                            proxy.scrollTo(newValue, anchor: .top)
                         }
                     }
                 }
