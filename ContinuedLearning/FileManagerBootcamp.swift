@@ -122,8 +122,8 @@ class FileManagerViewModel: ObservableObject {
     @Published var infoMessage = ""
     
     init() {
-        getImageFromAssetsFolder()
-        //getImageFromFileManager()
+        //getImageFromAssetsFolder()
+        getImageFromFileManager()
     }
     
     func getImageFromAssetsFolder() {
